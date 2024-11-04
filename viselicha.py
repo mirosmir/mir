@@ -11,7 +11,7 @@ def hangman():
             if char in guesses:
                 print(char, end=' ')
             else:
-                print('_', end=' ')
+                print('+', end=' ')
         print()
 
         guess = input("Guess a letter: ")
